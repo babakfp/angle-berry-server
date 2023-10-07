@@ -1,2 +1,3 @@
 /pb_data/*.db-*
 /pb_data/logs.db
+/pb_data/.pb_temp_to_delete/
