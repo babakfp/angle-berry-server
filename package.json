@@ -1,6 +1,5 @@
 {
     "name": "angle-berry-server",
-    "version": "0.0.1",
     "private": true,
     "scripts": {
         "serve": "pocketbase.exe serve",
