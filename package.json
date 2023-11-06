@@ -4,7 +4,7 @@
     "scripts": {
         "serve": "pocketbase.exe serve",
         "serve:host": "pocketbase.exe serve --http=192.168.1.102:8090",
-        "typegen": "pocketbase-typegen --no-sdk --db ./pb_data/data.db --out ../angle-berry-client/src/lib/utilities/pb-types.ts"
+        "typegen": "pocketbase-typegen --no-sdk --db ./pb_data/data.db --out ../angle-berry-client/src/lib/utilities/pb-typegen.ts"
     },
     "devDependencies": {
         "pocketbase-typegen": "1.2.1"
