@@ -2,6 +2,7 @@
     "name": "angle-berry-server",
     "private": true,
     "scripts": {
+        "pocketbase": "pocketbase.exe",
         "serve": "pocketbase.exe serve",
         "serve:host": "pocketbase.exe serve --http=0.0.0.0:8090",
         "typegen": "pocketbase-typegen --no-sdk --db ./pb_data/data.db --out ../angle-berry-client/src/lib/utilities/pb-typegen.ts"
