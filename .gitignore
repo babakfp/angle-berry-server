@@ -1,9 +1,5 @@
-/node_modules/
-/pnpm-lock.yaml
-
 /pb_data/*.db-*
 /pb_data/logs.db
 /pb_data/.pb_temp_to_delete/
 /pb_data/backups/
-
 /pocketbase.exe.old

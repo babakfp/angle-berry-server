@@ -1,12 +1,6 @@
 {
-    "name": "angle-berry-server",
-    "private": true,
     "scripts": {
-        "pocketbase": "pocketbase.exe",
-        "serve": "pocketbase.exe serve",
-        "typegen": "pocketbase-typegen --no-sdk --db ./pb_data/data.db --out ../angle-berry-client/src/lib/utilities/pb-typegen.ts"
-    },
-    "devDependencies": {
-        "pocketbase-typegen": "1.2.1"
+        "pb": "pocketbase.exe",
+        "serve": "pocketbase.exe serve"
     }
 }
