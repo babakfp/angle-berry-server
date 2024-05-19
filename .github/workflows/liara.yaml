@@ -16,4 +16,4 @@ jobs:
                   LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
               run: |
                   npm i -g @liara/cli@5
-                  liara deploy --app="angle-berry" --api-token="$LIARA_TOKEN" --no-app-logs --platform=docker
+                  liara deploy --app="angle-berry" --api-token="$LIARA_TOKEN" --no-app-logs --platform=docker --port=8090
