@@ -1,5 +1,6 @@
 /pb_data/*.db-*
 /pb_data/logs.db
 /pb_data/.pb_temp_to_delete/
-/pb_data/backups/
+/pb_data/backups/*
+!/pb_data/backups/pb_backup_angle_berry_0.zip
 /pocketbase.exe.old
